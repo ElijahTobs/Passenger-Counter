@@ -8,3 +8,9 @@ function increment() {
   count += 1
   counter.textContent = count
 }
+
+function save() {
+  entries.textContent += count + " - "
+  count = 0
+  counter.textContent = count
+}
