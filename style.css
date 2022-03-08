@@ -1,0 +1,17 @@
+main {
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+  border: 2px solid green;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  width: 100px;
+  margin: auto;
+}
+
+button {
+  margin-bottom: 20px;
+}
