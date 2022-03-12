@@ -1,0 +1,33 @@
+main {
+  width: 35%;
+  margin: 0;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  text-align: center;
+  border: 2px solid green;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  margin: auto;
+}
+
+button {
+  margin-bottom: 20px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 17px;
+  border-radius: 5px;
+  background-color: rgb(20, 177, 20);
+}
+
+#counter {
+  font-size: 25px;
+  font-weight: 700;
+}
