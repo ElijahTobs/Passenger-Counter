@@ -10,10 +10,11 @@ body {
   width: 400px;
   max-width: 80%;
   text-align: center;
-  background-color: aqua;
+  background-color: rgb(255, 255, 255);
   padding: 20px 20px;
-  border: 2px solid blue;
+  border: 2px solid green;
   border-radius: 10px;
+  box-shadow: 0 0 15px black;
   /* height: 50vh; */
   /* display: flex;
   justify-content: center;
@@ -42,12 +43,17 @@ button {
   width: 200px;
   margin-bottom: 5px;
   border-radius: 5px;
+  cursor: pointer;
 }
 
 #increment-btn {
-  background: darkred;
+  background: blue;
 }
 
 #save-btn {
   background: darkgreen;
+}
+
+#save-el {
+  font-weight: 700;
 }
